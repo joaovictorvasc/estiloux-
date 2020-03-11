@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+    * { 
+        margin: 0;
+        padding: 0;
+        /*width e height contados a partir da borda*/
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Inconsolata', monospace;
+        background-color: #efefef;
+        color: grey
+   }
+   header {
+       padding-left: 15%;
+       padding-right: 10%;
+       background-color: #727272;
+   }
+   header h1 {
+       display: inline-block;
+       margin-right: -4px;
+       width: 15%;
+       /*border: 1px solid black;*/
+       vertical-align: middle;
+       color: white;
+       font-weight: 100;
+       text-transform: uppercase;
+   }
+   header h1 span {
+       font-weight: 900;
+       font-size: 40px;
+       font-family: 'Indie Flower', cursive;
+       font-style: italic;
+
+   }
+   header nav {
+       display: inline-block;
+       margin-right: -4px;
+       width: 80%;
+       /*border: 1px solid black;*/
+       text-align: right;
+       vertical-align: middle;
+   }
+   header nav a {
+       display: inline-block;
+       margin-right: -4px;
+       /*border: black solid 1px;*/
+       padding: 20px;
+       text-align: center;
+       color: white;
+       text-decoration: none;
+   }
+   main {
+       width: 70%;
+       margin: 20px auto 0 auto;
+       /*border: 1px solid orange;*/
+   }
+   main section {
+       display: inline-block;
+       margin-right: -4px;
+       vertical-align: top;
+       width: 70%;
+       background-color: white
+       /*border: 1px solid red;*/
+   }
+   main aside {
+       display:inline-block;
+       margin-right: -4px;
+       margin-left: 1%;
+       vertical-align: top;
+       width: 27%;
+   }
+   main section img {
+       width: 100%;           
+   }
+   main section h2 {
+       font-size: 16px;
+       margin-top: 20px;
+       padding: 0 20px;
+   }
+   main section p {
+       margin-top: 20px;
+       padding: 0 20px;
+       margin-bottom: 20px;
+   }
+   .aside-box {
+       background-color: white;
+       padding-bottom: 20px;
+       margin-bottom: 20px;
+   }
+   .aside-box h3 {
+       padding-bottom: 20px;
+       padding-top: 20px;
+       margin-bottom: 20px;
+       font-size: 16px;
+       text-align: center;
+       border-bottom: 1px solid gray;
+   }
+   .aside-box input {
+       height: 35px;
+       width: 70%;
+       margin-left: 10px;
+       border: 1px solid #efefef;
+   }
+   .aside-box button {
+       height: 35px;
+       width: 15%;
+       background-color: grey;
+       color: white
+   }
+   .aside-box ul {
+       margin-left: 30px;
+       margin-right: 10px;
+   }
+   .aside-box ul li {
+       line-height: 20px;
+       font-size: 15px;
+   }
+   .aside-box p {
+       margin-bottom: 20px;
+       padding: 0 20px;
+       font-size: 15px;
+       line-height: 25px;
+   }
+   aside #inscricao {
+       width: 90%;
+       margin-left: 0 auto;
+   }
