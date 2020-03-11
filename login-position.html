@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css);
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            /* border: 10px dotted black; */
+            height: 100%;
+        }
+
+        body {
+            background-color: grey;
+            /* border: 10px dotted white; */
+            color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('./ak do flamengo.jpg');
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;   
+
+
+        }
+
+        #form-container {
+            top: calc(50% - (350px/2));
+            left: calc(50% - 400px);
+            height: 350px;
+            width: 800px;
+            position: fixed;
+            padding: 100px 40px;
+            background-color: black;
+            opacity: 0.8;
+            font-family: 'Open Sans', sans-serif;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        #signup a {
+            border: 1px solid white;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+            margin: 20px;
+            background-color: white;
+        }
+        #signup {
+            width: 200px;
+            height: 100%;
+            
+        }
+        #signup h1 {
+            width: 70%;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        #signup p {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form {
+            position: absolute;
+            width: 50%;
+            height: 120%;
+            top: -10%;
+            right: 40px;
+            background-color: white;
+            padding: 70px 40px;
+            border-radius: 5px;
+        }
+
+        form h2 {
+            color: red;
+            padding: 25px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        form .linha {
+            padding: 10px 0px;
+            border-bottom: 1px solid grey;
+            color: grey;
+            margin-bottom: 20px; 
+
+        }
+
+        form .linha i {
+             color: grey; 
+
+        }
+
+        form .linha input {
+            width: 95%;
+            height: 35px;
+            /* font-size: 12px; */
+            color: black;
+            border: none;
+            padding-left: 10px;
+            outline: none;
+        }
+        form #forgot-login button {
+            width: 48%;
+            height: 35px;
+            border: 1px solid salmon;
+            color: grey;        
+            cursor: pointer;
+
+        }
+
+        form #forgot-login #login {
+            background-color: red;
+            color: white;
+            border: 1px solid red;
+            text-transform: uppercase;
+            border-radius: 3px;
+            opacity: 1;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main id="form-container">
+        <div id="signup">
+            <h1>Don't have an account?</h1>
+            <p>Banjo tote bag bicycle rights, High life sartorial cray craft beer whatever street art fap.</p>
+            <p>Carga girando no plantao da boca se brecha na 5 vai ser muita bala</p>   
+            <a href="">sign up</a>
+        </div>
+
+        <form action="">
+            <h2>Log in</h2>
+            <div class="linha">
+                <input type="email" name="" id="email" placeholder="Email">
+                <i class="fas fa-envelope"></i>
+            </div>
+
+            <div class="linha">
+                <input type="password" name="" id="senha" placeholder="Password">
+                <i class="fas fa-lock"></i>
+            </div>
+
+            <div id="forgot-login">
+                <button id="forgot">Forgot password?</button>
+                <button id="login">Log in</button>
+                icone
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
